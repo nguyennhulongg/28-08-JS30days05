@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC" type='text/css'> 
+    <link rel="stylesheet" href="./style.css">
+    <div class="container">
+        <div class="img-container">
+            <div id="abc" class="text" onclick="content1()">
+                <p id="extra-down1" class="extra-down">HEY</p>
+                <p id="extra-up1" class="extra-up">DANCE</p>
+
+                <p class="para">LET'S</p>
+                <img id="content1" class="img" src="./forworks/photo-1443891238287-325a8fddd0f7.jfif"/>
+            </div>
+            <div class="text" onclick="content2()">
+                <p id="extra-down2" class="extra-down">GIVE</p>
+                <p id="extra-up2" class="extra-up">RECEIVE</p>
+
+                <p class="para">TAKE</p>    
+                <img id="content2" class="img" src="./forworks/flashlight.jpg"/>
+            </div>
+            <div class="text" onclick="content3()">
+                <p id="extra-down3" class="extra-down">EXPERIENCE</p>
+                <p id="extra-up3" class="extra-up">TODAY</p>
+
+                <p class="para">IT</p>    
+                <img id="content3" class="img" src="./forworks/photo-1465188162913-8fb5709d6d57.jfif"/>
+            </div>
+            <div class="text" onclick="content4()">
+                <p id="extra-down4" class="extra-down">GIVE</p>
+                <p id="extra-up4" class="extra-up">YOU CAN</p>
+
+                <p class="para">ALL</p>    
+                <img id="content4" class="img" src="./forworks/photo-1442522772768-9032b6d10e3e.jfif"/>
+            </div>
+            <div class="text" onclick="content5()">
+                <p id="extra-down5" class="extra-down">LIFE</p>
+                <p id="extra-up5" class="extra-up">MOTION</p>
+
+                <p class="para">IN</p>    
+                <img id="content5" class="img" src="./forworks/photo-1465156799763-2c087c332922.jfif"/>            
+            </div>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("content1");
+        var y = document.getElementById("content2");
+        var z = document.getElementById("content3");
+        var a = document.getElementById("content4");
+        var b = document.getElementById("content5");
+
+        function content1() {
+            if (x.style.width == 307.2 + "px" &&
+                y.style.width == 307.2 + "px" &&
+                z.style.width == 307.2 + "px" &&
+                a.style.width == 307.2 + "px" &&
+                b.style.width == 307.2 + "px" ) 
+                {
+
+                x.style.width = 844 + "px" ;
+                y.style.width = 173 + "px" ;
+                z.style.width = 173 + "px" ;
+                a.style.width = 173 + "px" ;
+                b.style.width = 173 + "px" ;
+                document.getElementById("extra-down1").style.display = "block";
+                document.getElementById("extra-up1").style.display = "block";
+            }else {
+                x.style.width = 307.2 + "px";
+                y.style.width = 307.2 + "px";
+                z.style.width = 307.2 + "px";
+                a.style.width = 307.2 + "px";
+                b.style.width = 307.2 + "px";
+                document.getElementById("extra-down1").style.display = "none";
+                document.getElementById("extra-up1").style.display = "none";
+            }
+        }
+
+        function content2() {
+            if (x.style.width == 307.2 + "px" &&
+                y.style.width == 307.2 + "px" &&
+                z.style.width == 307.2 + "px" &&
+                a.style.width == 307.2 + "px" &&
+                b.style.width == 307.2 + "px" ) 
+                {
+
+                y.style.width = 844 + "px" ;
+                x.style.width = 173 + "px" ;
+                z.style.width = 173 + "px" ;
+                a.style.width = 173 + "px" ;
+                b.style.width = 173 + "px" ;
+                document.getElementById("extra-down2").style.display = "block";
+                document.getElementById("extra-up2").style.display = "block";
+
+            }else {
+                x.style.width = 307.2 + "px";
+                y.style.width = 307.2 + "px";
+                z.style.width = 307.2 + "px";
+                a.style.width = 307.2 + "px";
+                b.style.width = 307.2 + "px";
+                document.getElementById("extra-down2").style.display = "none";
+                document.getElementById("extra-up2").style.display = "none";
+                
+
+            }
+        }
+
+        function content3() {
+            if (x.style.width == 307.2 + "px" &&
+                y.style.width == 307.2 + "px" &&
+                z.style.width == 307.2 + "px" &&
+                a.style.width == 307.2 + "px" &&
+                b.style.width == 307.2 + "px" ) 
+                {
+
+                z.style.width = 844 + "px" ;
+                y.style.width = 173 + "px" ;
+                x.style.width = 173 + "px" ;
+                a.style.width = 173 + "px" ;
+                b.style.width = 173 + "px" ;
+                document.getElementById("extra-down3").style.display = "block";
+                document.getElementById("extra-up3").style.display = "block";
+
+            }else {
+                x.style.width = 307.2 + "px";
+                y.style.width = 307.2 + "px";
+                z.style.width = 307.2 + "px";
+                a.style.width = 307.2 + "px";
+                b.style.width = 307.2 + "px";
+                document.getElementById("extra-down3").style.display = "none";
+                document.getElementById("extra-up3").style.display = "none";
+            }
+        }
+
+        function content4() {
+            if (x.style.width == 307.2 + "px" &&
+                y.style.width == 307.2 + "px" &&
+                z.style.width == 307.2 + "px" &&
+                a.style.width == 307.2 + "px" &&
+                b.style.width == 307.2 + "px" ) 
+                {
+
+                a.style.width = 844 + "px" ;
+                y.style.width = 173 + "px" ;
+                z.style.width = 173 + "px" ;
+                x.style.width = 173 + "px" ;
+                b.style.width = 173 + "px" ;
+                document.getElementById("extra-down4").style.display = "block";
+                document.getElementById("extra-up4").style.display = "block";
+
+            }else {
+                x.style.width = 307.2 + "px";
+                y.style.width = 307.2 + "px";
+                z.style.width = 307.2 + "px";
+                a.style.width = 307.2 + "px";
+                b.style.width = 307.2 + "px";
+                document.getElementById("extra-up4").style.display = "none";
+                document.getElementById("extra-down4").style.display = "none";
+            }
+        }
+
+        function content5() {
+            if (x.style.width == 307.2 + "px" &&
+                y.style.width == 307.2 + "px" &&
+                z.style.width == 307.2 + "px" &&
+                a.style.width == 307.2 + "px" &&
+                b.style.width == 307.2 + "px" ) 
+
+                {
+
+                b.style.width = 844 + "px" ;
+                y.style.width = 173 + "px" ;
+                z.style.width = 173 + "px" ;
+                a.style.width = 173 + "px" ;
+                x.style.width = 173 + "px" ;
+                document.getElementById("extra-down5").style.display = "block";
+                document.getElementById("extra-up5").style.display = "block";
+
+            }else {
+                x.style.width = 307.2 + "px";
+                y.style.width = 307.2 + "px";
+                z.style.width = 307.2 + "px";
+                a.style.width = 307.2 + "px";
+                b.style.width = 307.2 + "px";
+                document.getElementById("extra-down5").style.display = "none";
+                document.getElementById("extra-up5").style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

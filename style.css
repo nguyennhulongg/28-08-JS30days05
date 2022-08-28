@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/amaticsc/v24/TUZyzwprpvBS1izr_vOEDuSfQZQ.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.img-container {
+    display: flex;
+    background-size: cover;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.img {
+    width: 307.2px;
+    height: 713.6px ; 
+    object-fit: cover;
+    display: block;
+}
+
+.extra-down{
+    position: absolute;
+    margin-top: -400px;
+    font-family: "Amatic SC";
+    font-size: 80px;
+    color: #ffffff;
+    text-shadow: 0 0 8px black;
+    display: none;
+}
+
+.extra-up{
+    position: absolute;
+    margin-bottom: -400px;
+    font-family: "Amatic SC";
+    font-size: 80px;
+    color: #ffffff;
+    text-shadow: 0 0 8px black;
+    display: none;
+}
+
+.para {
+    position: absolute;
+    font-size: 80px;
+    color: #ffffff;
+    font-family: "Amatic SC";
+    text-shadow: 0 0 8px black;
+}
+
+
